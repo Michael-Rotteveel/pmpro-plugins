@@ -1,0 +1,115 @@
+/* Player Accounts Checkout Styles - PMPro Compatible */
+
+/* Field container */
+#pmpro_player_accounts_fields {
+    margin-top: 2rem;
+}
+
+/* Number input specific styling */
+#player_accounts {
+    max-width: 150px;
+}
+
+/* Cost preview styling */
+#player_accounts_cost_preview {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #f0f8ff;
+    border-left: 4px solid #2271b1;
+    border-radius: 4px;
+    display: none;
+}
+
+#player_accounts_cost_preview:not(:empty) {
+    display: block;
+}
+
+#player_accounts_cost_preview strong {
+    color: #2271b1;
+    font-weight: 600;
+}
+
+/* Cost breakdown styling */
+.pmpro-cost-breakdown {
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    background: rgba(34, 113, 177, 0.05);
+    border-radius: 4px;
+}
+
+.pmpro-cost-breakdown-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.pmpro-cost-breakdown-item:last-child {
+    margin-bottom: 0;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(34, 113, 177, 0.2);
+    font-weight: 600;
+}
+
+/* Account adjuster styles */
+.pmpro-account-adjuster {
+    margin-top: 2rem;
+}
+
+.pmpro-account-adjuster .pmpro_card {
+    max-width: 600px;
+}
+
+.pmpro-account-adjuster #new_accounts {
+    max-width: 150px;
+    margin-right: 1rem;
+}
+
+#adjustment-result {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+    display: none;
+}
+
+#adjustment-result.pmpro_success {
+    display: block;
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+#adjustment-result.pmpro_error {
+    display: block;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    #player_accounts {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .pmpro-cost-breakdown-item {
+        flex-direction: column;
+    }
+
+    .pmpro-cost-breakdown-item span:last-child {
+        margin-top: 0.25rem;
+        font-weight: 600;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    #player_accounts_cost_preview {
+        background: rgba(34, 113, 177, 0.1);
+        border-left-color: #4a90e2;
+    }
+
+    .pmpro-cost-breakdown {
+        background: rgba(34, 113, 177, 0.1);
+    }
+}

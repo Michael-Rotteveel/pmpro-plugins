@@ -1,0 +1,27 @@
+{
+    "name": "bb/pmpro-player-accounts",
+    "description": "Player account-based pricing system for Paid Memberships Pro",
+    "type": "wordpress-plugin",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Michael Rotteveel",
+            "email": "michael@gametailors.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "php-di/php-di": "^7.1"
+    },
+    "autoload": {
+        "classmap": [
+            "bb-pmpro-player-accounts.php",
+            "includes/",
+            "admin/"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}

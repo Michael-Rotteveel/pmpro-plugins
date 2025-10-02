@@ -1,0 +1,86 @@
+/* Player Accounts Admin Styles */
+.extra-accounts-setting {
+    transition: all 0.3s ease;
+}
+
+.feature-tag-buttons {
+    padding: 10px;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.feature-tag-buttons button {
+    margin: 2px !important;
+}
+
+#tier_features {
+    font-family: monospace;
+    line-height: 1.5;
+}
+
+.pmpro-preset-selector {
+    background: #f1f1f1;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.pmpro-preset-selector h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #23282d;
+}
+
+.pmpro-preset-selector select {
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+}
+
+/* Highlight player account settings section */
+h3:contains("Player Account Settings") {
+    background: linear-gradient(90deg, #2271b1 0%, #135e96 100%);
+    color: white;
+    padding: 10px 15px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+/* Settings table improvements */
+.form-table th[scope="row"] label[for*="player_accounts"],
+.form-table th[scope="row"] label[for*="extra_accounts"] {
+    font-weight: 600;
+}
+
+.form-table td .description {
+    color: #666;
+    font-style: normal;
+    margin-top: 5px;
+}
+
+/* Number input styling */
+input[type="number"]#default_player_accounts,
+input[type="number"]#price_per_account,
+input[type="number"]#max_accounts {
+    width: 100px;
+}
+
+/* Checkbox styling */
+input[type="checkbox"]#allow_extra_accounts,
+input[type="checkbox"]#enable_proration {
+    margin-right: 5px;
+}
+
+/* Validation styles */
+input.error {
+    border-color: #dc3545;
+}
+
+.notice-player-accounts {
+    background: #fff;
+    border-left: 4px solid #2271b1;
+    padding: 12px;
+    margin: 20px 0;
+}

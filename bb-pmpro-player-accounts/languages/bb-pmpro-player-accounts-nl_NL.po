@@ -1,0 +1,202 @@
+# Dutch translations for BB PMPro Player Accounts
+msgid ""
+msgstr ""
+"Project-Id-Version: BB PMPro Player Accounts 1.0.0\n"
+"POT-Creation-Date: 2024-01-01 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-09-11 14:21+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.7\n"
+
+msgid "Player Accounts"
+msgstr "Speler Accounts"
+
+msgid "Number of Player Accounts"
+msgstr "Aantal Speler Accounts"
+
+msgid "This membership includes %d player account(s)."
+msgstr "Dit lidmaatschap bevat %d speler account(s)."
+
+msgid "Additional accounts cost €%s per year each."
+msgstr "Extra accounts kosten €%s per jaar per stuk."
+
+msgid "Extra accounts"
+msgstr "Extra accounts"
+
+msgid "Calculating..."
+msgstr "Berekenen..."
+
+msgid "Default Player Accounts"
+msgstr "Standaard Speler Accounts"
+
+msgid "Number of player accounts included with this membership level."
+msgstr "Aantal speler accounts inbegrepen bij dit lidmaatschapsniveau."
+
+msgid "Allow Extra Accounts"
+msgstr "Extra Accounts Toestaan"
+
+msgid "Allow members to purchase additional player accounts"
+msgstr "Sta leden toe om extra speler accounts aan te schaffen"
+
+msgid "Price per Extra Account (€)"
+msgstr "Prijs per Extra Account (€)"
+
+msgid "Annual price for each additional player account."
+msgstr "Jaarlijkse prijs voor elk extra speler account."
+
+msgid "Maximum Accounts"
+msgstr "Maximum Accounts"
+
+msgid "Maximum number of accounts allowed. Set to 0 for unlimited (capped at 25)."
+msgstr "Maximum aantal toegestane accounts. Stel in op 0 voor onbeperkt (maximum 25)."
+
+msgid "Enable Proration"
+msgstr "Pro-rata Berekening Inschakelen"
+
+msgid "Enable proration for mid-cycle account adjustments"
+msgstr "Schakel pro-rata berekening in voor aanpassingen tijdens de factureringsperiode"
+
+msgid "Features"
+msgstr "Functies"
+
+msgid "Comma-separated list of feature flags for this membership level."
+msgstr "Komma-gescheiden lijst van functievlaggen voor dit lidmaatschapsniveau."
+
+msgid "Player Account Settings"
+msgstr "Speler Account Instellingen"
+
+msgid "Minimum %d player accounts required."
+msgstr "Minimaal %d speler accounts vereist."
+
+msgid "Maximum %d player accounts allowed."
+msgstr "Maximaal %d speler accounts toegestaan."
+
+msgid "Current accounts: %d"
+msgstr "Huidige accounts: %d"
+
+msgid "Adjust Player Accounts"
+msgstr "Speler Accounts Aanpassen"
+
+msgid "Number of accounts:"
+msgstr "Aantal accounts:"
+
+msgid "Update Accounts"
+msgstr "Accounts Bijwerken"
+
+msgid "Accounts updated successfully"
+msgstr "Accounts succesvol bijgewerkt"
+
+msgid "Failed to update accounts"
+msgstr "Kan accounts niet bijwerken"
+
+msgid "Not logged in"
+msgstr "Niet ingelogd"
+
+msgid "No active membership"
+msgstr "Geen actief lidmaatschap"
+
+msgid "Minimum %d accounts required"
+msgstr "Minimaal %d accounts vereist"
+
+msgid "Maximum %d accounts allowed"
+msgstr "Maximaal %d accounts toegestaan"
+
+msgid "Player accounts adjustment (upgrade)"
+msgstr "Speler accounts aanpassing (upgrade)"
+
+msgid "Player accounts adjustment (downgrade)"
+msgstr "Speler accounts aanpassing (downgrade)"
+
+msgid "Player Accounts: %d"
+msgstr "Speler Accounts: %d"
+
+msgid "Extra Accounts Cost: €%s"
+msgstr "Extra Accounts Kosten: €%s"
+
+msgid "Extra account for %s"
+msgstr "Extra account voor %s"
+
+msgid "Additional player accounts beyond the %d included"
+msgstr "Extra speler accounts bovenop de %d inbegrepen"
+
+msgid "player account"
+msgid_plural "player accounts"
+msgstr[0] "speler account"
+msgstr[1] "speler accounts"
+
+msgid "User has no active membership"
+msgstr "Gebruiker heeft geen actief lidmaatschap"
+
+msgid "General Settings"
+msgstr "Algemene Instellingen"
+
+msgid "Configure general settings for Player Accounts."
+msgstr "Configureer algemene instellingen voor Speler Accounts."
+
+msgid "Enable Debug Mode"
+msgstr "Debug Modus Inschakelen"
+
+msgid "Enable debug logging"
+msgstr "Debug logging inschakelen"
+
+msgid "BB PMPro Player Accounts requires Paid Memberships Pro to be installed and activated."
+msgstr "BB PMPro Speler Accounts vereist dat Paid Memberships Pro is geïnstalleerd en geactiveerd."
+
+msgid "Monthly Price per Extra Account (€)"
+msgstr "Maandelijkse Prijs per Extra Account (€)"
+
+msgid "Monthly price for each additional player account."
+msgstr "Maandelijkse prijs voor elk extra speler account."
+
+msgid "Annual cost: €%s per account"
+msgstr "Jaarlijkse kosten: €%s per account"
+
+msgid "Additional accounts: €%s per month (€%s per year) each."
+msgstr "Extra accounts: €%s per maand (€%s per jaar) per stuk."
+
+msgid "per month"
+msgstr "per maand"
+
+msgid "per year"
+msgstr "per jaar"
+
+msgid "Total extra cost"
+msgstr "Totale extra kosten"
+
+msgid "Additional player accounts beyond the %d included (€%s/month)"
+msgstr "Extra speler accounts bovenop de %d inbegrepen (€%s/maand)"
+
+msgid "Required Field"
+msgstr "Verplicht veld"
+
+msgid "Price per account"
+msgstr "Prijs per account"
+
+msgid "Total extra annual cost"
+msgstr "Totale extra jaarlijkse kosten"
+
+msgid "Manage Player Accounts"
+msgstr "Beheer Speler Accounts"
+
+msgid "Current player accounts: <strong>%d</strong>"
+msgstr "Huidige speler accounts: <strong>%d</strong>"
+
+msgid "Number of accounts"
+msgstr "Aantal accounts"
+
+msgid "Your membership level does not allow additional player accounts."
+msgstr "Uw lidmaatschapsniveau staat geen extra speler accounts toe."
+
+msgid "Additional charge"
+msgstr "Extra kosten"
+
+msgid "Credit applied"
+msgstr "Tegoed toegepast"
+
+msgid "An error occurred. Please try again."
+msgstr "Er is een fout opgetreden. Probeer het opnieuw."

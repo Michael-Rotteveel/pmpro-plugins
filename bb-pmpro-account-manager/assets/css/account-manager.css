@@ -1,0 +1,433 @@
+/* Account Manager Styles */
+.pmpro-account-manager-wrapper {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.pmpro-account-manager-wrapper h2 {
+    color: #23282d;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #2271b1;
+}
+
+/* Info Grid */
+.account-manager-info {
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.info-item {
+    padding: 10px;
+    background: white;
+    border-radius: 3px;
+    border: 1px solid #e1e1e1;
+}
+
+.info-item label {
+    display: block;
+    color: #666;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.info-item strong {
+    color: #23282d;
+    font-size: 16px;
+}
+
+/* Form Styles */
+.account-manager-form {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.account-manager-form h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #23282d;
+}
+
+.form-row {
+    margin-bottom: 20px;
+}
+
+.form-row label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #23282d;
+}
+
+/* Account Selector */
+.account-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.account-adjust-btn {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #2271b1;
+    background: white;
+    color: #2271b1;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.account-adjust-btn:hover {
+    background: #2271b1;
+    color: white;
+}
+
+.account-adjust-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#new_accounts {
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background: #f7f7f7;
+}
+
+.account-limits {
+    color: #666;
+    font-size: 12px;
+}
+
+/* Proration Preview */
+.proration-preview {
+    background: #f0f8ff;
+    border: 1px solid #b3d9ff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.proration-preview h4 {
+    margin-top: 0;
+    color: #2271b1;
+}
+
+.proration-table {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.proration-table td {
+    padding: 8px 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.proration-table td:first-child {
+    width: 60%;
+    color: #666;
+}
+
+.proration-table td:last-child {
+    text-align: right;
+}
+
+.proration-amount.charge strong {
+    color: #d63638;
+}
+
+.proration-amount.credit strong {
+    color: #00a32a;
+}
+
+.proration-message {
+    padding: 10px;
+    background: white;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.proration-warning {
+    padding: 10px;
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 3px;
+    margin-top: 10px;
+    color: #856404;
+}
+
+.proration-info {
+    padding: 10px;
+    background: #d1ecf1;
+    border: 1px solid #bee5eb;
+    border-radius: 3px;
+    margin-top: 10px;
+    color: #0c5460;
+}
+
+/* Form Actions */
+.form-actions {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e1e1e1;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.form-actions .pmpro_btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.pmpro_btn-select {
+    background: #2271b1;
+    color: white;
+}
+
+.pmpro_btn-select:hover {
+    background: #135e96;
+}
+
+.pmpro_btn-submit {
+    background: #00a32a;
+    color: white;
+}
+
+.pmpro_btn-submit:hover {
+    background: #008a20;
+}
+
+.pmpro_btn-cancel {
+    background: #666;
+    color: white;
+}
+
+.pmpro_btn-cancel:hover {
+    background: #555;
+}
+
+.pmpro_btn:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}
+
+/* Messages */
+.account-manager-messages {
+    margin: 20px 0;
+}
+
+.account-manager-messages .pmpro_message {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    animation: slideIn 0.3s ease;
+}
+
+.account-manager-messages .pmpro_success {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.account-manager-messages .pmpro_error {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+/* Proration Info Box */
+.proration-info {
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.proration-info h4 {
+    margin-top: 0;
+    color: #23282d;
+    font-size: 16px;
+}
+
+.proration-info ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.proration-info li {
+    margin-bottom: 8px;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pmpro-account-manager-wrapper {
+        padding: 15px;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .account-manager-form {
+        padding: 15px;
+    }
+
+    .account-selector {
+        justify-content: center;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+
+    .form-actions .pmpro_btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .pmpro-account-manager-wrapper h2 {
+        font-size: 20px;
+    }
+
+    .account-adjust-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+
+    #new_accounts {
+        width: 60px;
+        height: 35px;
+        font-size: 16px;
+    }
+}
+
+/* Animation */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Admin Styles */
+.pmpro_membership_level_profile_fields #admin_player_accounts {
+    width: 100px;
+}
+
+/* Loading States */
+.loading {
+    position: relative;
+    pointer-events: none;
+}
+
+.loading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border: 3px solid #ddd;
+    border-top-color: #2271b1;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+/* Account Link on PMPro Account Page */
+.pmpro_account .pmpro_btn-select {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+/* Tooltip Styles */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: help;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 12px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Status Indicators */
+.status-indicator {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.status-active {
+    background: #00a32a;
+}
+
+.status-pending {
+    background: #ffc107;
+}
+
+.status-error {
+    background: #d63638;
+}

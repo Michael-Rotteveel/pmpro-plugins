@@ -1,0 +1,247 @@
+# Dutch translations for BB PMPro Account Manager
+msgid ""
+msgstr ""
+"Project-Id-Version: BB PMPro Account Manager 1.0.0\n"
+"POT-Creation-Date: 2024-01-01 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-09-15 10:27+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.7\n"
+
+# Plugin Info
+msgid "Account management UI for BB PMPro Player Accounts - allows users to manage accounts mid-cycle"
+msgstr "Account beheer interface voor BB PMPro Speler Accounts - stelt gebruikers in staat accounts tijdens de factureringsperiode aan te passen"
+
+# General UI
+msgid "Manage Player Accounts"
+msgstr "Beheer Speler Accounts"
+
+msgid "Manage Your Player Accounts"
+msgstr "Beheer Je Speler Accounts"
+
+msgid "Player Accounts"
+msgstr "Speler Accounts"
+
+msgid "Player Accounts:"
+msgstr "Speler Accounts:"
+
+msgid "%d accounts"
+msgstr "%d accounts"
+
+msgid "Manage Accounts"
+msgstr "Beheer Accounts"
+
+# Account Manager Page
+msgid "Current Membership:"
+msgstr "Huidig Lidmaatschap:"
+
+msgid "Current Player Accounts:"
+msgstr "Huidige Speler Accounts:"
+
+msgid "Next Payment Date:"
+msgstr "Volgende Betalingsdatum:"
+
+msgid "Included Accounts:"
+msgstr "Inbegrepen Accounts:"
+
+msgid "Price per Extra Account:"
+msgstr "Prijs per Extra Account:"
+
+msgid "per year"
+msgstr "per jaar"
+
+msgid "Adjust Your Player Accounts"
+msgstr "Pas Je Speler Accounts Aan"
+
+msgid "Number of Player Accounts:"
+msgstr "Aantal Speler Accounts:"
+
+msgid "Min: %d | Max: %d"
+msgstr "Min: %d | Max: %d"
+
+msgid "Preview Changes"
+msgstr "Bekijk Wijzigingen"
+
+msgid "Apply Changes"
+msgstr "Wijzigingen Toepassen"
+
+msgid "Cancel"
+msgstr "Annuleren"
+
+# Proration
+msgid "Proration Preview"
+msgstr "Pro-rata Voorvertoning"
+
+msgid "How Proration Works"
+msgstr "Hoe Pro-rata Werkt"
+
+msgid "When you add accounts, you'll be charged for the remaining days in your current billing period."
+msgstr "Als je accounts toevoegt, worden kosten berekend voor de resterende dagen in je huidige factureringsperiode."
+
+msgid "When you remove accounts, you'll receive a credit for the remaining days."
+msgstr "Als je accounts verwijdert, ontvang je krediet voor de resterende dagen."
+
+msgid "Changes take effect immediately after confirmation."
+msgstr "Wijzigingen worden direct na bevestiging doorgevoerd."
+
+msgid "You will be charged €%s for %d additional account(s) for the remaining %d days of your billing period."
+msgstr "Je wordt €%s in rekening gebracht voor %d extra account(s) voor de resterende %d dagen van je factureringsperiode."
+
+msgid "You will receive a credit of €%s for removing %d account(s) for the remaining %d days of your billing period."
+msgstr "Je ontvangt een krediet van €%s voor het verwijderen van %d account(s) voor de resterende %d dagen van je factureringsperiode."
+
+msgid "No proration will be applied for this change."
+msgstr "Er wordt geen pro-rata berekening toegepast voor deze wijziging."
+
+msgid "Proration is not enabled for your membership level."
+msgstr "Pro-rata berekening is niet ingeschakeld voor jouw lidmaatschapsniveau."
+
+msgid "Unable to calculate proration - no upcoming payment found."
+msgstr "Kan pro-rata niet berekenen - geen aankomende betaling gevonden."
+
+# JavaScript Strings
+msgid "Are you sure you want to upgrade your accounts? You will be charged for the additional accounts."
+msgstr "Weet je zeker dat je je accounts wilt upgraden? Er worden kosten in rekening gebracht voor de extra accounts."
+
+msgid "Are you sure you want to downgrade your accounts? Credit will be applied to your next invoice."
+msgstr "Weet je zeker dat je je accounts wilt downgraden? Krediet wordt toegepast op je volgende factuur."
+
+msgid "Processing..."
+msgstr "Verwerken..."
+
+msgid "An error occurred. Please try again."
+msgstr "Er is een fout opgetreden. Probeer het opnieuw."
+
+msgid "Your accounts have been updated successfully!"
+msgstr "Je accounts zijn succesvol bijgewerkt!"
+
+msgid "Calculating proration..."
+msgstr "Pro-rata berekenen..."
+
+# Error Messages
+msgid "Please log in to manage your player accounts."
+msgstr "Log in om je speler accounts te beheren."
+
+msgid "You need an active membership to manage player accounts."
+msgstr "Je hebt een actief lidmaatschap nodig om speler accounts te beheren."
+
+msgid "Your membership level does not allow account adjustments."
+msgstr "Je lidmaatschapsniveau staat geen account aanpassingen toe."
+
+msgid "Not logged in"
+msgstr "Niet ingelogd"
+
+msgid "No active membership"
+msgstr "Geen actief lidmaatschap"
+
+msgid "No active membership found."
+msgstr "Geen actief lidmaatschap gevonden."
+
+msgid "Minimum %d accounts required for your membership level."
+msgstr "Minimaal %d accounts vereist voor jouw lidmaatschapsniveau."
+
+msgid "Maximum %d accounts allowed for your membership level."
+msgstr "Maximaal %d accounts toegestaan voor jouw lidmaatschapsniveau."
+
+msgid "No change in account count."
+msgstr "Geen wijziging in aantal accounts."
+
+msgid "Failed to process payment adjustment."
+msgstr "Kan betalingsaanpassing niet verwerken."
+
+msgid "No active subscription found for proration."
+msgstr "Geen actief abonnement gevonden voor pro-rata berekening."
+
+msgid "Stripe payment processing is not available."
+msgstr "Stripe betalingsverwerking is niet beschikbaar."
+
+msgid "Payment adjustment processed successfully."
+msgstr "Betalingsaanpassing succesvol verwerkt."
+
+msgid "Payment processing error: %s"
+msgstr "Betalingsverwerkingsfout: %s"
+
+msgid "Adjustment will be applied to your next invoice."
+msgstr "Aanpassing wordt toegepast op je volgende factuur."
+
+# Invoice Items
+msgid "Player accounts upgrade (%d to %d accounts)"
+msgstr "Speler accounts upgrade (%d naar %d accounts)"
+
+msgid "Player accounts downgrade credit (%d to %d accounts)"
+msgstr "Speler accounts downgrade krediet (%d naar %d accounts)"
+
+# Admin Interface
+msgid "Adjust player accounts for this member. Default: %d, Max: %d"
+msgstr "Pas speler accounts aan voor dit lid. Standaard: %d, Max: %d"
+
+msgid "Player accounts changed from %d to %d. Proration: %s€%.2f"
+msgstr "Speler accounts gewijzigd van %d naar %d. Pro-rata: %s€%.2f"
+
+# Email Notifications
+msgid "Player Accounts Updated - %s"
+msgstr "Speler Accounts Bijgewerkt - %s"
+
+msgid ""
+"Dear %s,\n"
+"\n"
+msgstr ""
+"Beste %s,\n"
+"\n"
+
+msgid ""
+"Your player accounts have been successfully updated.\n"
+"\n"
+msgstr ""
+"Je speler accounts zijn succesvol bijgewerkt.\n"
+"\n"
+
+msgid "Previous accounts: %d\n"
+msgstr "Vorige accounts: %d\n"
+
+msgid ""
+"New accounts: %d\n"
+"\n"
+msgstr ""
+"Nieuwe accounts: %d\n"
+"\n"
+
+msgid ""
+"The additional charges will be processed according to your billing cycle.\n"
+"\n"
+msgstr ""
+"De extra kosten worden verwerkt volgens je factureringscyclus.\n"
+"\n"
+
+msgid ""
+"Credit will be applied to your account for the removed accounts.\n"
+"\n"
+msgstr ""
+"Krediet wordt toegepast op je account voor de verwijderde accounts.\n"
+"\n"
+
+msgid ""
+"If you have any questions, please contact us.\n"
+"\n"
+"Best regards,\n"
+"%s"
+msgstr ""
+"Als je vragen hebt, neem dan contact met ons op.\n"
+"\n"
+"Met vriendelijke groet,\n"
+"%s"
+
+# Plugin Dependencies
+msgid "BB PMPro Account Manager requires the following plugins to be installed and activated: %s"
+msgstr "BB PMPro Account Manager vereist dat de volgende plugins zijn geïnstalleerd en geactiveerd: %s"
+
+msgid "BB PMPro Player Accounts"
+msgstr "BB PMPro Speler Accounts"
+
+msgid "Paid Memberships Pro"
+msgstr "Paid Memberships Pro"

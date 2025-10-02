@@ -1,0 +1,26 @@
+{
+  "name": "bb/pmpro-account-manager",
+  "description": "Account management UI for BB PMPro Player Accounts",
+  "type": "wordpress-plugin",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Michael Rotteveel",
+      "email": "michael@gametailors.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "php-di/php-di": "^7.1"
+  },
+  "autoload": {
+    "classmap": [
+      "bb-pmpro-account-manager.php",
+      "includes/"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
